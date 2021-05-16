@@ -1,0 +1,6 @@
+framework module JIMediator {
+  umbrella header "JIMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

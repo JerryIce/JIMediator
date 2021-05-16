@@ -1,0 +1,6 @@
+framework module Pods_JIMediator_Tests {
+  umbrella header "Pods-JIMediator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

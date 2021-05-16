@@ -1,0 +1,16 @@
+PODS:
+  - JIMediator (0.1.0)
+
+DEPENDENCIES:
+  - JIMediator (from `../`)
+
+EXTERNAL SOURCES:
+  JIMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JIMediator: 4ad00bbf70c0ca04a79f0398689a5b7e477afc50
+
+PODFILE CHECKSUM: 773c1020eb786548843ecdbe82c643a35305c460
+
+COCOAPODS: 1.9.3

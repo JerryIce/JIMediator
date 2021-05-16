@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		16DA7D5482B91FD4F4552B53 /* Pods_JIMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94B9205E7BD51D206E91C4D /* Pods_JIMediator_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* JImainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* JImainViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		670FBD512650DA9C00DFD185 /* JIMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FBD4F2650DA9C00DFD185 /* JIMediator.swift */; };
+		670FBD522650DA9C00DFD185 /* JIFunctionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FBD502650DA9C00DFD185 /* JIFunctionModule.swift */; };
 		C1DAACB87B21A47E9D1232E4 /* Pods_JIMediator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB1D677A5DDE21472A49747 /* Pods_JIMediator_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,21 +31,23 @@
 
 /* Begin PBXFileReference section */
 		0CB1D677A5DDE21472A49747 /* Pods_JIMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D3540C05A439DCBD09E6D66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D3540C05A439DCBD09E6D66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3E886EC515FC5EC91A5641C3 /* Pods-JIMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-JIMediator_Example/Pods-JIMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		442493FEE5BE1407D884231D /* Pods-JIMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-JIMediator_Example/Pods-JIMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4F8F9D6F56C2ABC372425EEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4F8F9D6F56C2ABC372425EEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JIMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JIMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* JImainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JImainViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* JIMediator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JIMediator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8C55914889918974E1570094 /* JIMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JIMediator.podspec; path = ../JIMediator.podspec; sourceTree = "<group>"; };
+		670FBD4F2650DA9C00DFD185 /* JIMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JIMediator.swift; sourceTree = "<group>"; };
+		670FBD502650DA9C00DFD185 /* JIFunctionModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JIFunctionModule.swift; sourceTree = "<group>"; };
+		8C55914889918974E1570094 /* JIMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JIMediator.podspec; path = ../JIMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A61397E9405DD8515EAF1B9C /* Pods-JIMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-JIMediator_Tests/Pods-JIMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D94B9205E7BD51D206E91C4D /* Pods_JIMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JIMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D8AF8B4DFDFD94B668D85E /* Pods-JIMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JIMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JIMediator_Tests/Pods-JIMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +90,6 @@
 				E9D8AF8B4DFDFD94B668D85E /* Pods-JIMediator_Tests.debug.xcconfig */,
 				A61397E9405DD8515EAF1B9C /* Pods-JIMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,7 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* JImainViewController.swift */,
+				670FBD4F2650DA9C00DFD185 /* JIMediator.swift */,
+				670FBD502650DA9C00DFD185 /* JIFunctionModule.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,7 +337,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				670FBD522650DA9C00DFD185 /* JIFunctionModule.swift in Sources */,
+				670FBD512650DA9C00DFD185 /* JIMediator.swift in Sources */,
+				607FACD81AFB9204008FA782 /* JImainViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
