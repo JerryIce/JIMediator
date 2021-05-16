@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JIMediator'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '采用中介者模式：管理业务功能块以及各个控制器的路由逻辑，减少耦合'
 
 # This description is used to generate tags and improve search results.
