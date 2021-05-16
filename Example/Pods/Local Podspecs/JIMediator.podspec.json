@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "采用中介者模式：管理业务功能块以及各个控制器的路由逻辑，减少耦合",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Jerry/JIMediator",
+  "homepage": "https://github.com/JerryIce/JIMediator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Jerry": "jerryelectricity@me.com"
   },
   "source": {
-    "git": "https://github.com/Jerry/JIMediator.git",
+    "git": "https://github.com/JerryIce/JIMediator.git",
     "tag": "0.1.0"
   },
   "platforms": {
