@@ -8,7 +8,7 @@
 import Foundation
 
 //MARK: - Request Protocol定义
-public protocol JIReqProtocol: class {
+public protocol JIReqProtocol: AnyObject {
     associatedtype P
     associatedtype R
     var handler: ((_ parameters: P) -> Result<R, JIError>)? { get set }
