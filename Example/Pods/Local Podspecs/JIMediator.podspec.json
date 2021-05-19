@@ -1,6 +1,6 @@
 {
   "name": "JIMediator",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "summary": "采用中介者模式：管理业务功能块以及各个控制器的路由逻辑，减少耦合",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/JerryIce/JIMediator",
@@ -13,10 +13,17 @@
   },
   "source": {
     "git": "https://github.com/JerryIce/JIMediator.git",
-    "tag": "0.1.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JIMediator/Classes/**/*"
+  "source_files": "JIMediator/Classes/**/*",
+  "swift_versions": "5",
+  "dependencies": {
+    "URLNavigator": [
+
+    ]
+  },
+  "swift_version": "5"
 }

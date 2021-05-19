@@ -8,6 +8,7 @@ target 'JIMediator_Example' do
   target 'JIMediator_Tests' do
     inherit! :search_paths
 
+    pod 'URLNavigator'
     
   end
 end

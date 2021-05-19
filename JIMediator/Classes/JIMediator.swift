@@ -1,4 +1,12 @@
 
+//
+//  File.swift
+//  JIMediator
+//
+//  Created by 杨宗维 on 2021/5/16.
+//
+
+import URLNavigator
 
 public class JIMediatorManager {
     
@@ -14,18 +22,23 @@ public class JIMediatorManager {
     }
     
     
+    public lazy var navigator: NavigatorType = {
+        return Navigator()
+    }()
+    
+    
     //MARK: - Request类型
     //这里根据需求可以不断增加新的功能入口模块
     
     //MARK:登录注册/退出登录
     //手动登录入口
-    lazy var presentLogin = JIPresentLogin()
+    public lazy var presentLogin = JIPresentLogin()
     
     // 自动登录
-    lazy var autoLogin = JIAutoLogin()
+    public lazy var autoLogin = JIAutoLogin()
     
     // 退出登录
-    lazy var logout = JILogout()
+    public lazy var logout = JILogout()
     
 }
 

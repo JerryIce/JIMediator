@@ -14,14 +14,15 @@ protocol JIErrorAnalysable {
 }
 
 enum JIErrorCode: String {
-    case noData = "-6000"
-    case parseJSON = "-6001"
-    case noHandler = "-6002"
-    case noParameters = "-6003"
-    case network = "-6004"
-    case timeout = "-6005"
-    case login = "-6006"
-    case custom = "-7000"
+    
+    case noData = "-1000"
+    case parseJSON = "-1001"
+    case noHandler = "-1002"
+    case noParameters = "-1003"
+    case network = "-1004"
+    case timeout = "-1005"
+    case login = "-1006"
+    case custom = "-2000"
     case tokenExpired = "401"
 
 }

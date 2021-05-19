@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JIMediator'
-  s.version          = '0.4.0'
-  s.summary          = '采用中介者模式：管理业务功能块以及各个控制器的路由逻辑，减少耦合'
+  s.version          = '0.5.0'
+  s.summary          = '中介者模式管理业务功能块和控制器'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+采用中介者模式：管理业务功能块（可扩展、增加）以及各个业务控制器的路由逻辑减少耦合，路由逻辑采用URLNavigator
                        DESC
 
   s.homepage         = 'https://github.com/JerryIce/JIMediator'
@@ -39,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'URLNavigator'
 end

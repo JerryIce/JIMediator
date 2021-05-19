@@ -1,16 +1,24 @@
 PODS:
-  - JIMediator (0.1.0)
+  - JIMediator (0.5.0):
+    - URLNavigator
+  - URLNavigator (2.3.0)
 
 DEPENDENCIES:
   - JIMediator (from `../`)
+  - URLNavigator
+
+SPEC REPOS:
+  trunk:
+    - URLNavigator
 
 EXTERNAL SOURCES:
   JIMediator:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JIMediator: b588caff8dbd1ffbd9235c553b8414a251ea4bbd
+  JIMediator: 7d24e6cfdd340e92ad3793af5eafc3856054cb9e
+  URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
 
-PODFILE CHECKSUM: 773c1020eb786548843ecdbe82c643a35305c460
+PODFILE CHECKSUM: c5fc440d988f5a5b10dc2a02375223b838a072e8
 
 COCOAPODS: 1.10.1
